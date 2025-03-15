@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagicBricks Clone</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>MagicBricks Clone</h1>
+        <button id="darkModeToggle">🌙</button>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" id="search-location" placeholder="Search by location">
+        <input type="number" id="search-budget" placeholder="Max Budget">
+        <button onclick="searchProperties()">🔍 Search</button>
+    </div>
+
+    <!-- Image Slider -->
+    <div class="slider">
+        <img src="images/house1.jpg" class="slide" alt="House 1">
+        <img src="images/house2.jpg" class="slide" alt="House 2">
+        <img src="images/house3.jpg" class="slide" alt="House 3">
+    </div>
+
+    <!-- Property Listings -->
+    <div id="property-list"></div>
+    
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

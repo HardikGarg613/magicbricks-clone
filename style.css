@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    transition: background 0.3s ease;
+}
+.dark-mode {
+    background: #222;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: red;
+    color: white;
+    padding: 15px;
+}
+
+/* Search Bar */
+.search-bar {
+    text-align: center;
+    margin: 20px;
+}
+.search-bar input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+.search-bar button {
+    padding: 10px;
+}
+
+/* Image Slider */
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+.slider img {
+    width: 100%;
+    animation: slide 6s infinite;
+}
+@keyframes slide {
+    0% { opacity: 1; }
+    33% { opacity: 0; }
+    66% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+/* Property Listings */
+#property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.property-card {
+    width: 200px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.property-card img {
+    width: 100%;
+}
